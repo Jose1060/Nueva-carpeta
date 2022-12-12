@@ -1,0 +1,16 @@
+*&---------------------------------------------------------------------*
+*& Include          Z_TEC_22_2_LAB14_09_DEF_MODULE
+*&---------------------------------------------------------------------*
+
+TABLES: ZTC_TCUSTOMER_CO.
+
+DATA it_spfli TYPE TABLE OF ZTC_TCUSTOMER_CO.
+
+
+DATA wa_itab02 TYPE ZTC_TCUSTOMER_CO.
+
+TYPES itab02_typ TYPE STANDARD TABLE OF ZTC_TCUSTOMER_CO.
+
+DATA itab02 TYPE itab02_typ.
+
+DATA line_cnt TYPE i.
